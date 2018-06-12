@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+:root {
+  --whie: #ffffff;
+  --izit: #ff3a28;
+  --gray: rgb(172, 172, 172);
+
+  --izit80: #ff7c70;
+}
+
 body{
-  margin: 0;
+  margin: 0px;
+  font-family: "Roboto";
 }

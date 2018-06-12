@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  padding-top: 25px;
+}
+
+.g {
+  border-radius: 10px;
+  height: 238px;
+  box-shadow: 0 5px 10px 0 rgba(152, 110, 88, 0.2);
+}
+
+.g1 {
+  grid-column: span 1;
+  background-color: white;
+}
+.g2 {
+  grid-column: span 2;
+  background-color: white;
+}
+
