@@ -10,7 +10,6 @@
 
 .g {
   border-radius: 10px;
-  height: 238px;
   box-shadow: 0 5px 10px 0 rgba(152, 110, 88, 0.2);
 }
 
@@ -22,4 +21,10 @@
   grid-column: span 2;
   background-color: white;
 }
+
+.graphcontainer{
+  position: relative;
+  height: 200px;
+}
+
 
